@@ -30,8 +30,8 @@ function Needs() {
                 <button className="bg-left-bottom bg-gradient-to-l from-purple-500 to-purple-200 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
                   Learn more &gt;
                 </button>
-                <div className="bg-cyan-500 opacity-20 absolute blur-3xl w-12 md:w-56 h-56 rotate-45 transition-colors overflow-hidden" />
               </div>
+              <div className="bg-cyan-500 opacity-20 absolute blur-3xl w-12 md:w-56 h-56 rotate-45 transition-colors overflow-hidde -z-10" />
             </div>
           </div>
           <div className=" rounded-2xl duration-300 hover:shadow-xl hover:scale-105 md:px-8 py-10 border border-zinc-800 text-center font-semibold max-w-[500px] m-3 flex bg-[#181818]">
