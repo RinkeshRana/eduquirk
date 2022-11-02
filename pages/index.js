@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer";
+import Contact from "../components/index/Contact";
 import Features from "../components/index/Features";
 import Feedbacks from "../components/index/Feedbacks";
 import Hero from "../components/index/Hero";
@@ -16,8 +17,10 @@ function index() {
       <section>
         <Hero />
       </section>
-      <section>
+      <section className="relative overflow-hidden md:overflow-visible">
         <Needs />
+        <div className="bg-cyan-500 opacity-20 absolute blur-3xl w-32 md:w-56 h-56 rotate-45 transition-colors overflow-hidden top-20 right-96" />
+        <div className="bg-pink-500 opacity-20 absolute blur-3xl w-32 md:w-56 h-56 rotate-45 transition-colors overflow-hidden bottom-1 left-64" />
       </section>
       <section>
         <Features />
@@ -29,8 +32,11 @@ function index() {
 
       <div className="bg-gradient-to-br from-purple-800 to-blue-800 absolute blur-xl w-32 md:w-96 h-5 -rotate-45 md:rotate-12 md:left-96" />
       <section>
-        <Footer />
+        <Contact />
       </section>
+      {/* <section>
+        <Footer />
+      </section> */}
     </div>
   );
 }

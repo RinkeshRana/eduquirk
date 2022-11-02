@@ -9,7 +9,7 @@ function Navbar() {
         </h1>
       </div>
       <div className="hidden md:block">
-        <div className="flex space-x-6 font-sans">
+        {/* <div className="flex space-x-6 font-sans">
           <div className="duration-500 hover:text-white hover:underline underline-offset-4 cursor-pointer ">
             ABOUT
           </div>
@@ -19,15 +19,15 @@ function Navbar() {
           <div className="duration-500 hover:text-white hover:underline underline-offset-4 cursor-pointer">
             FEEDBACK
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="flex space-x-2">
         <button className="text-xs tracking-wider text-[#BAC1D4] bg-[#1C1D1D] px-2 py-1 md:px-4 md:py-2 rounded-full border-2 border-[#2E2E2E]/30 duration-700 hover:bg-yellow-500 hover:text-black">
           CONTACT US
         </button>
-        <button className="hidden md:block md:ml-6 text-xs tracking-wider text-[#BAC1D4] bg-[#1C1D1D] px-2  py-1 md:px-4 md:py-2 rounded-full border-2 border-[#2E2E2E]/30 duration-700 hover:bg-yellow-500 hover:text-black">
+        {/* <button className="hidden md:block md:ml-6 text-xs tracking-wider text-[#BAC1D4] bg-[#1C1D1D] px-2  py-1 md:px-4 md:py-2 rounded-full border-2 border-[#2E2E2E]/30 duration-700 hover:bg-yellow-500 hover:text-black">
           PAYMENT
-        </button>
+        </button> */}
       </div>
     </div>
   );
