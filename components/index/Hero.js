@@ -6,7 +6,9 @@ function Hero() {
       <div className="flex justify-center items-center h-[600px] md:h-[700px]">
         <div className="text-4xl md:text-6xl lg:text-8xl text-center dark:text-white font-gordita">
           <h2>
-            <div>Building website</div>
+            <div>
+              Building website<span className="text-5xl">,</span>
+            </div>
 
             <div>
               <span className="text-rose-500">products</span>
