@@ -29,7 +29,7 @@ function Navbar() {
     }
   };
   return (
-    <div className="backdrop-blur-sm shadow-sm dark:bg-[#171717] flex justify-between items-center py-6 px-6 md:px-9 font-semibold dark:text-white tracking-[4px] text-sm">
+    <div className="backdrop-blur-sm shadow-sm dark:shadow-none bg-white/30 dark:bg-transparent flex justify-between items-center py-6 px-6 md:px-9 font-semibold dark:text-white tracking-[4px] text-sm">
       <div className="relative">
         <h1 className=" tracking-widest font-pompador text-xl md:text-2xl lg:text-4xl duration-500 dark:hover:text-white dark:hover:bg-gray-500/20 px-2 rounded-full cursor-pointer">
           Stalwart<span className="text-red-500 ">.</span>
