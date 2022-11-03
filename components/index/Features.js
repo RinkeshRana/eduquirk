@@ -14,7 +14,7 @@ function Features() {
         Our impressive features
       </h3>
       <div className="p-2 flex justify-center flex-wrap">
-        <div className="rounded-2xl border border-zinc-800 text-center py-7 max-w-[350px] m-3    hover:bg-gradient-to-br hover:from-pink-600/5 hover:to-purple-500/5 ">
+        <div className="rounded-2xl border border-zinc-800 text-center py-7 max-w-[350px] m-3    hover:bg-blue-500/10 dark:hover:bg-yellow-50/5">
           <div className="text-orange-500 flex justify-center text-4xl">
             <AiOutlineFieldTime />
           </div>
@@ -24,7 +24,7 @@ function Features() {
             pages.
           </div>
         </div>
-        <div className="rounded-2xl border border-zinc-800 text-center  py-7 max-w-[350px] m-3   hover:bg-yellow-50/5">
+        <div className="rounded-2xl border border-zinc-800 text-center  py-7 max-w-[350px] m-3 hover:bg-blue-500/10 dark:hover:bg-yellow-50/5">
           <div className="text-orange-500 flex justify-center text-4xl">
             <AiOutlineDesktop />
             <AiOutlineMobile />
@@ -35,7 +35,7 @@ function Features() {
             bvrowsers.
           </div>
         </div>
-        <div className="rounded-2xl border border-zinc-800 text-center  py-7 max-w-[350px] m-3   hover:bg-yellow-50/5">
+        <div className="rounded-2xl border border-zinc-800 text-center  py-7 max-w-[350px] m-3 hover:bg-blue-500/10 dark:hover:bg-yellow-50/5">
           <div className="text-orange-500 flex justify-center text-4xl">
             <AiOutlineRightSquare />
           </div>
@@ -47,7 +47,7 @@ function Features() {
             easily
           </div>
         </div>
-        <div className="rounded-2xl border border-zinc-800 text-center  py-7 max-w-[350px] m-3   hover:bg-yellow-50/5">
+        <div className="rounded-2xl border border-zinc-800 text-center  py-7 max-w-[350px] m-3 hover:bg-blue-500/10 dark:hover:bg-yellow-50/5">
           <div className="text-orange-500 flex justify-center text-4xl">
             <AiOutlineSmile />
           </div>

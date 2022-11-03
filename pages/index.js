@@ -11,7 +11,7 @@ function index() {
   return (
     <div className=" dark:bg-[#181818] relative scroll-p-96 font-gordita transition-all">
       <div className="bg-gradient-to-b from-purple-800 to-cyan-500 absolute blur-3xl w-full h-8 rotate-45 transition-colors" />
-      <section>
+      <section className="sticky top-0 z-50">
         <Navbar />
       </section>
       <section>
