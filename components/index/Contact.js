@@ -13,7 +13,7 @@ function Contact() {
   };
 
   return (
-    <div className="h-screen text-white">
+    <div className="h-screen dark:text-white">
       <div className=" mt-32">
         <h4 className="text-center text-3xl md:text-5xl">
           We have just got what you need.
