@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        pompador: ["pompador", "cursive"],
+        pompador: ["pompador", "sans-serif"],
         gordita: ["gordita", "sans-serif"],
       },
     },
