@@ -31,14 +31,14 @@ function Navbar() {
   };
   return (
     <div className="backdrop-blur-sm shadow-sm dark:shadow-none bg-white/30 dark:bg-transparent flex justify-between items-center py-6 px-6 md:px-9 font-semibold dark:text-white tracking-[4px] text-sm">
-      <div className="relative flex items-center">
-        <Image
+      <div className="relative flex items-center  contrast-200">
+        {/* <Image
           src="/logo.png"
           width={50}
           height={50}
           alt=""
           className=" w-6 md:w-10"
-        />
+        /> */}
         <h1 className="mt-2 tracking-widest font-pompador text-xl md:text-2xl lg:text-4xl duration-500 dark:hover:text-white dark:hover:bg-gray-500/20 px-2 rounded-full cursor-pointer">
           Stalwart<span className="text-red-500 ">.</span>
         </h1>

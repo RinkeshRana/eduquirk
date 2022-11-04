@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         pompador: ["pompador", "cursive"],
-        gordita: ["gordita", "cursive"],
+        gordita: ["gordita", "sans-serif"],
       },
     },
   },

@@ -1,3 +1,4 @@
+import Head from "next/head";
 import React from "react";
 import Footer from "../components/Footer";
 import Contact from "../components/index/Contact";
@@ -10,6 +11,12 @@ import Navbar from "../components/Navbar";
 function index() {
   return (
     <div className=" dark:bg-[#181818] relative scroll-p-96 font-gordita transition-all">
+      <Head>
+        <title>
+          Building website, products, brands & experience - Stalwart
+        </title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className="bg-gradient-to-b from-purple-800 to-cyan-500 absolute blur-3xl w-full h-8 rotate-45 transition-colors" />
       <section className="sticky top-0 z-50">
         <Navbar />
