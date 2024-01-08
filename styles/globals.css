@@ -16,3 +16,27 @@
       @apply outline-none bg-slate-400/10 rounded-sm border-b px-1 md:px-6 py-2 md:py-6 border-[#242424] text-gray-500 placeholder-gray-500 focus:border-orange-500/40 focus:text-orange-500/90 hover:border-orange-500/80 dark:text-orange-500/70 text-orange-500/90
     }
   }
+
+
+  .stacked-cards-container {
+    overflow: hidden;
+  }
+  
+  .stacked-cards {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .stacked-card {
+    flex: 0 0 auto;
+    width: 70%; /* Adjust as needed */
+    margin-right: 1rem; /* Adjust spacing between cards */
+    scroll-snap-align: start;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .stacked-card:hover {
+    transform: scale(1.1);
+  }
+  

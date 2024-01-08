@@ -7,6 +7,7 @@ import Hero from "../components/index/Hero";
 import Needs from "../components/index/Needs";
 import Navbar from "../components/Navbar";
 import FeaturedImages from "../components/index/FeaturedImages";
+import NicheWorks from "../components/index/NicheWorks";
 
 function index() {
   return (
@@ -32,10 +33,16 @@ function index() {
       <section>
         <Features />
       </section>
-      <section>
+      {/* <section>
         <FeaturedImages />
-      </section>
+      </section> */}
+
       <div className=" absolute blur-2xl w-1/4 h-4 left-30 md:left-60 bg-gradient-to-r from-red-600  to-yellow-500/70 -rotate-45" />
+
+      <section>
+        <NicheWorks />
+      </section>
+
       <section className="hidden">
         <Feedbacks />
       </section>
