@@ -1,12 +1,12 @@
 import Head from "next/head";
 import React from "react";
-import Footer from "../components/Footer";
 import Contact from "../components/index/Contact";
 import Features from "../components/index/Features";
 import Feedbacks from "../components/index/Feedbacks";
 import Hero from "../components/index/Hero";
 import Needs from "../components/index/Needs";
 import Navbar from "../components/Navbar";
+import FeaturedImages from "../components/index/FeaturedImages";
 
 function index() {
   return (
@@ -32,6 +32,9 @@ function index() {
       <section>
         <Features />
       </section>
+      <section>
+        <FeaturedImages />
+      </section>
       <div className=" absolute blur-2xl w-1/4 h-4 left-30 md:left-60 bg-gradient-to-r from-red-600  to-yellow-500/70 -rotate-45" />
       <section className="hidden">
         <Feedbacks />
@@ -41,9 +44,6 @@ function index() {
       <section>
         <Contact />
       </section>
-      {/* <section>
-        <Footer />
-      </section> */}
     </div>
   );
 }

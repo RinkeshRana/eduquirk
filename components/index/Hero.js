@@ -26,7 +26,7 @@ function Hero() {
             </div>
             <div></div>
           </div>
-          <button className="md:ml-6 text-lg tracking-wider border-2 dark:border-white dark:text-white px-2 py-1 md:px-7 md:py-3 rounded-full  duration-700 hover:bg-yellow-400 hover:text-black font-semibold ">
+          <button className="md:ml-6 text-lg tracking-wider border-2  px-2 py-1 md:px-7 md:py-3 rounded-full  duration-700 hover:bg-yellow-400 hover:text-black font-semibold ">
             GET IN TOUCH &gt;
           </button>
         </div>
