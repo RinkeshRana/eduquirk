@@ -27,7 +27,7 @@ function Contact() {
       </div>
       <div className=" flex items-center space-x-2 justify-center mt-10 text-orange-500/80">
         <MdMailOutline className="w-7 h-7" />
-        <p className="text-xs md:text-2xl">mailtostalwart@gmail.com</p>
+        <p className="text-xs md:text-2xl">rinkeshr007@gmail.com</p>
       </div>
       <div className="flex flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center relative  mt-10">
         <div className="flex flex-col space-y-10">
