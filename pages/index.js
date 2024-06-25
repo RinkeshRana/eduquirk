@@ -9,9 +9,9 @@ import Navbar from "../components/Navbar";
 import FeaturedImages from "../components/index/FeaturedImages";
 import NicheWorks from "../components/index/NicheWorks";
 
-function index() {
+function Index() {
   return (
-    <div className=" dark:bg-[#181818] relative scroll-p-96 font-gordita transition-all">
+    <div className="dark:bg-[#181818] relative scroll-p-96 font-gordita transition-all">
       <Head>
         <title>
           Building website, products, brands & experience - Stalwart
@@ -37,7 +37,7 @@ function index() {
         <FeaturedImages />
       </section> */}
 
-      <div className=" absolute blur-2xl w-1/4 h-4 left-30 md:left-60 bg-gradient-to-r from-red-600  to-yellow-500/70 -rotate-45" />
+      <div className="absolute blur-2xl w-1/4 h-4 left-30 md:left-60 bg-gradient-to-r from-red-600 to-yellow-500/70 -rotate-45" />
 
       <section>
         <NicheWorks />
@@ -47,7 +47,10 @@ function index() {
         <Feedbacks />
       </section>
 
-      <div className="bg-gradient-to-br from-purple-800 to-blue-800 absolute blur-xl w-32 md:w-96 h-5 -rotate-45 md:rotate-12 md:left-96" />
+      <div
+        className="bg-gradient-to-br from-purple-800 to-blue-800 absolute blur-xl w-32 md:w-96 h-5 -rotate-45 md:rotate-12 md:left-96"
+        id="contact"
+      />
       <section>
         <Contact />
       </section>
@@ -55,4 +58,4 @@ function index() {
   );
 }
 
-export default index;
+export default Index;
