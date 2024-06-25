@@ -7,22 +7,22 @@ function Hero() {
         <div className="text-4xl md:text-6xl lg:text-8xl text-center dark:text-white font-gordita">
           <h2>
             <div>
-              Building website<span className="text-5xl">,</span>
+              Building websites<span className="text-5xl">,</span>
             </div>
 
             <div>
-              <span className="text-rose-500">products</span>
+              <span className="text-rose-500">ideas</span>
               <span className="text-5xl">,</span>
-              <span className="text-yellow-400"> brands</span> &
+              <span className="text-yellow-400"> visions</span> &
             </div>
-            <div>experience</div>
+            <div>experiences</div>
           </h2>
           <div className="flex justify-center text-base mt-8 dark:text-white px-3">
             <div className="md:w-3/4">
               <h3 className="bg-purple-500 opacity-20 absolute blur-3xl  w-12 md:w-56  h-56 rotate-45 transition-colors overflow-hidden " />
-              Turning and bringing idea into amazing product. We implement your
-              brand for you, Hassle free. To ensure that your communication
-              materials remain consistently on-brand.
+              Transforming concepts into stunning sites. We build your brand
+              online, hassle-free. Ensuring your web presence stays consistently
+              on-brand.
             </div>
             <div></div>
           </div>

@@ -9,7 +9,7 @@ function Needs() {
   return (
     <div className=" mt-10 font-gordita">
       <div className="text-4xl md:text-5xl lg:text-6xl text-center dark:text-white ">
-        Stalwart for every business <div>you need.</div>
+        For every business need <div>you have.</div>
       </div>
 
       <div className="flex justify-center">
